@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&display=swap');
+body {
+    text-align: center;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/108/015/original/vector-ice-cream-cones.jpg);
+    font-family: 'Jost' , sans-serif;
+    color:rgba(35, 133, 94, 1) ;
+    font-weight: bolder;
+    text-shadow: 0.5px 0.5px rgb(0, 0, 0);
+    
+}
+
+.main{
+    position: relative;
+    width: 600px;
+    background-color: rgb(197, 52, 112, 0.1);
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 5%;
+    border-radius: 50px 50px 50px 50px;
+    
+}
+
+#survey-form{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.row-tab {
+    display: block;
+    padding-top: 20px;
+}
+
+.label-iceCream {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+}
+
+.input-iceCream {
+    display: inline-block;
+    width: 48%;
+    text-align: left;
+}
+
+.select-input {
+    display: inline-block;
+    width: 48%;
+    text-align: left;
+}
+
+.label-select {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+}
+
+.labels-radio {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    vertical-align: top;
+}
+
+.input-radio {
+    display: inline-block;
+    width: 48%;
+    text-align: left;
+}
+
+.checkbox-labels {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    vertical-align: top;
+}
+
+.checkbox-input {
+    display: inline-block;
+    width: 48%;
+    text-align: left;
+}
+
+input {
+    border-width: 0px;
+    border-radius: 5px 5px 5px 5px;
+    background-color:rgb(197, 52, 112, 0.3) ;
+    font-family: 'Jost' , sans-serif;
+    color: white;
+}
+
+::placeholder {
+    text-align: center;
+    font-family: 'Jost' , sans-serif;
+    color: white;
+}
+
+textarea {
+    background-color:rgb(197, 52, 112, 0.3) ;
+    border-width: 0px;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+select {
+    background-color:rgb(197, 52, 112, 0.3) ;
+    border-radius: 5px;
+    border-width: 0px;
+    color: white;
+    font-family: 'Jost' , sans-serif;
+}
+

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <div class="main">
+          <h1 id="title">IceCream Toppings</h1>
+          <p id="description">I just need a bit info about your favourite icecream.</p>
+  
+          <form id="survey-form">
+              <div class="row-tab">
+                  <div class="label-iceCream" >
+                      <label id="name-label">Name:</label>
+                  </div>
+                  <div class="input-iceCream">
+                      <input id="name" type="name" placeholder="Name" required>
+                  </div>
+                  <div class="label-iceCream" >
+                      <label id="number-label">Age:</label>
+                  </div>
+                  <div class="input-iceCream" for="number">
+                      <input type="number"
+          name="age"
+          id="number"
+          min="10"
+          max="99"
+          class="form-control"
+          placeholder="Age">
+                  </div>
+                  <div class="label-iceCream" >
+                      <label id="email-label">Email:</label>
+                  </div>
+                  <div class="input-iceCream">
+                      <input id="email" type="email" placeholder="Email" required>
+                  </div>
+              </div>
+              <div class="row-tab">
+                  <div class="label-select">
+                      <label>Select Fav Topping:</label>
+                  </div>
+                  <div class="select-input">
+                      <select id="dropdown" class="dropdown">
+                          <option value="salted-caramel">Salted Caramel</option>
+                          <option value="chocolate">Chocolate</option>
+                          <option value="kitkat">KitKat</option>
+                          <option value="blueBerry">Blueberries</option>
+                      </select>
+                  </div>
+              </div>
+              <div class="row-tab">
+                  <div class="labels-radio">
+                      Flavours:
+                  </div>
+                  <div class="input-radio" name="flavours">
+                      <label>
+                          <input type="radio" name="falvour" value="vanilla">
+                          Vanilla
+                      </label><br>
+                      <label>
+                          <input type="radio" name="falvour" value="tiramissu">
+                          Tiramissu
+                      </label><br>
+                      <label>
+                          <input type="radio" name="falvour" value="chocolate">
+                          Chocolate
+                      </label><br>
+                  </div>
+              </div>
+              <div class="row-tab">
+                  <div class="checkbox-labels">
+                      <label>Cone:</label>
+                  </div>
+                  <div class="checkbox-input">
+                      <label>
+                          <input type="checkbox" name="cone" value="paper">
+                          Paper
+                      </label><br>
+                      <label>
+                          <input type="checkbox" name="cone" value="plastic">
+                          Plastic
+                      </label><br>
+                      <label>
+                          <input type="checkbox" name="cone" value="waffle">
+                          Waffle
+                      </label><br>
+                  </div>
+              </div>
+              <div class="row-tab">
+                  <textarea placeholder="Enter your comments here."></textarea>
+                  <br>
+                  <input type="submit" id="submit">
+              </div>
+  
+          </form>
+      </div>
+  </body>
+</html>
